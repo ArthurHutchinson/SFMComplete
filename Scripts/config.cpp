@@ -63,6 +63,7 @@ class CfgVehicles
 	class SFM_SunrisePants_Base;
 	class SFM_SunriseGasBag;
 	class SFM_SunriseBag1;
+	class SFM_MercPants_ColorBase;
 
 
 	// DUTY //
@@ -202,6 +203,7 @@ class CfgVehicles
 		// Monolith Merc Pants
 
 	// TODO: TEST ME
+
 	class SFMC_MercPants_Bandit: SFM_MercPants_ColorBase
 	{
 		scope = 2;
