@@ -58,13 +58,14 @@ class CfgMods
 
 class CfgVehicles
 {
+
+	// Organize by suit type, not faction.
 	class SFM_SunriseVestFull_Base;
 	class SFM_SunriseJacket_Base;
 	class SFM_SunrisePants_Base;
 	class SFM_SunriseGasBag;
 	class SFM_SunriseBag1;
 	class SFM_MercPants_ColorBase;
-
 
 	// DUTY //
 	// SUNRISE (DUTY)
@@ -164,11 +165,7 @@ class CfgVehicles
 		// Monolith SEVA Gas Bag
 
 	// TODO: Add Beril for Loner
-		// Loner Beril Helmet
-		// Loner Beril Gasmask
-		// Loner Beril Vest
-		// Loner Beril Jacket
-		// Loner Beril Pants
+		// Berill_shirt_stalker.paa NEED
 
 	// TODO: Add Beril for Freedom
 		// Freedom Beril Helmet
@@ -204,11 +201,11 @@ class CfgVehicles
 
 	// TODO: TEST ME
 
-	class SFMC_MercPants_Bandit: SFM_MercPants_ColorBase
-	{
-		scope = 2;
-		visibilityModifier = 0.9;
-		hiddenSelectionsTextures[] = {"SFM\Pants\SFM_MercPants\data\Merc_Pants_Bandit.paa"};
-	}
+	// class SFMC_MercPants_Bandit: SFM_MercPants_ColorBase
+	// {
+	// 	scope = 2;
+	// 	visibilityModifier = 0.9;
+	// 	hiddenSelectionsTextures[] = {"SFM\Pants\SFM_MercPants\data\Merc_Pants_Bandit.paa"};
+	// }
 
 };
